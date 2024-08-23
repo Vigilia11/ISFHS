@@ -1,0 +1,43 @@
+.content{
+    /* border: 1px solid #d1d5db; */
+    border-radius: 15px;
+}
+.sender-img{
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+}
+.sender{
+    line-height: 17px;
+}
+.sender span{
+    font-weight: bold;
+}
+.small{
+    color: #6b7280;
+}
+.message{
+    min-height: 400px;
+    color: #1f2937;
+}
+.date-bottom{
+    display: none;
+}
+@media only screen and (max-width: 450px){
+    .sender-img{
+        width: 35px;
+        height: 35px;
+    }
+    .content{
+        border-radius: 0;
+    }
+    .message{
+        min-height: 300px;
+    }
+    .date-bottom{
+        display: block;        
+    }
+    .date-top{
+        display: none;
+    }
+}

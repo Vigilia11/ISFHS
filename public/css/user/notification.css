@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: #1f2937;
+}
+a:hover .notification{
+    background-color: #e5e7eb;
+    color: black;
+}
+.notification{
+    /* border-top: 1px solid #e5e7eb; */
+    border-bottom: 1px solid #e5e7eb;
+    height: 38px;
+    overflow: hidden;
+}
+.message{
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.seen{
+    background-color: white;
+}
+.unseen{
+    background-color: #f1f5f9;
+}
+.date{
+    font-size: small;
+}

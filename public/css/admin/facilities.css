@@ -1,0 +1,30 @@
+.facility-card{
+    border: 1px solid #e5e7eb;  
+    border-radius: 8px;
+    overflow-x: hidden;
+}
+.img-facility{
+    height: 150px;
+}
+
+.img-profile-facilitator{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+.name{
+    overflow-x: auto;
+}
+
+.checked{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: #374151;
+}
+
+a:hover{
+    color: #1f2937;
+}

@@ -1,0 +1,113 @@
+div.top-rated{
+    /* background-image: linear-gradient(to bottom, #f87171, #ffedd5, #fb923c, #fef3c7); */
+    /* background-color: #9333ea; */
+    background-image: linear-gradient(to bottom, #fb923c, #fed7aa,#fef3c7, #fff7ed, #fef3c7, #fed7aa, #fb923c);
+    color: black;
+}
+div.top-rated h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.top-rated-content{
+    color: #374151;
+}
+div.top-rated-facility{
+    height: 160px;
+}
+.star-container{
+    font-size: 11px;
+    top: 2px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+}
+.checked{
+    color: #fbbf24;
+}
+
+div.carousel-item{
+    height: 300px;
+}
+.carousel-item-1{
+    line-height: 50px;
+}
+.ball-1{
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50%);
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(to left top, #f87171, #ffedd5);
+}
+.ball-2{
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50%);
+    top: -100px;
+    left: -100px;
+    background-image: linear-gradient(to right bottom, #fb923c, #fef3c7);
+}
+
+.btn-carousel-control-prev{
+    position: absolute;
+    left: -20px;
+    top: 130px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+    cursor: pointer;
+    opacity: 0;
+}
+.btn-carousel-control-next{
+    position: absolute;
+    right: -20px;
+    top: 130px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+    cursor: pointer;
+    opacity: 0;
+}
+.carousel-indicators{
+    opacity: 0;
+}
+#isfhs_carousel:hover .btn-carousel-control-prev, #isfhs_carousel:hover .btn-carousel-control-next, #isfhs_carousel:hover .carousel-indicators{
+    opacity: 1;
+}
+
+/* //////////////////////////         dormitory        /////////////////////////////// */
+div.dormitory:hover{
+    background-color: #f3f4f6;
+}
+img.dormitory-picture{
+    height: 150px;
+}
+div.dormitory-details{
+    line-height: 13px;
+}
+div.dormitory-details span{
+    font-weight: bold;
+}
+
+/* //////////////////////////         canteen        /////////////////////////////// */
+
+div.canteen:hover{
+    background-color: #f3f4f6;
+}
+img.canteen-picture{
+    height: 150px;
+}
+div.canteen-details{
+    line-height: 13px;
+}
+div.canteen-details span{
+    font-weight: bold;
+}
+
+.star{
+    font-size: 12px;
+}

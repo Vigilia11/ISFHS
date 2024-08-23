@@ -1,0 +1,86 @@
+.account-status-pending{
+    border: 1px solid #fdba74;
+}
+.account-status-declined{
+    border: 1px solid #fda4af;
+}
+.account-status-approved{
+    border: 1px solid #86efac;
+}
+.account-status-blocked{
+    border: 1px solid #94a3b8;
+}
+.account-body{
+    line-height: 1px;
+}
+.account-status{
+    color: #4b5563;
+}
+
+.account-pending{
+    background-image: linear-gradient(to right, #ea580c, #fdba74);
+    color: white;
+}
+.pending-number{
+    color: #ea580c;
+}
+
+.account-approved{
+    background-image: linear-gradient(to right, #22c55e, #86efac);
+    color: white;
+}
+.approved-number{
+    color: #22c55e;
+}
+
+.account-declined{
+    background-image: linear-gradient(to right, #f43f5e, #fda4af);
+    color: white;
+}
+.declined-number{
+    color: #f43f5e;
+}
+
+.account-blocked{
+    background-image: linear-gradient(to right, #475569, #94a3b8);
+    color: white;
+}
+.blocked-number{
+    color: #475569;
+}
+
+
+
+.facility-pending{
+    background-image: linear-gradient(to right, #ea580c, #fdba74);
+    color: white;
+}
+.facility-pending-number{
+    color: #ea580c;
+}
+
+.facility-approved{
+    background-image: linear-gradient(to right, #22c55e, #86efac);
+    color: white;
+}
+.facility-approved-number{
+    color: #22c55e;
+}
+
+.facility-declined{
+    background-image: linear-gradient(to right, #f43f5e, #fda4af);
+    color: white;
+}
+.facility-declined-number{
+    color: #f43f5e;
+}
+
+.facility-blocked{
+    background-image: linear-gradient(to right, #475569, #94a3b8);
+    color: white;
+}
+.facility-blocked-number{
+    color: #475569;
+}
+
+

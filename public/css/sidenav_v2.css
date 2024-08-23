@@ -1,0 +1,39 @@
+#sidenav{
+    width: 230px;
+    transition: 0.5s;  
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.menu a{
+    display: block;
+}
+
+#sidenav a{
+    width: 230px;
+}
+
+#sidenav a{
+    color: #374151;
+    text-decoration: none;
+    padding-left: 30px;
+}
+#sidenav a:hover{
+    background-color: #93c5fd;
+    color: #111827;
+}
+/*
+#btnShowSidenav{
+    display: none;
+} */
+@media only screen and (max-width: 450px){
+    #sidenav{
+        width: 0;
+        z-index: 4;
+    }
+    #btnShowSidenav{
+        display: block;
+    }
+}

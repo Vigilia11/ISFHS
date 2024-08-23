@@ -1,0 +1,43 @@
+/* #studentCard:hover, #facilitatorCard:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.card-link{
+    text-decoration: none;
+    color:black;
+}
+.card-text{
+    color: #4b5563;
+} */
+.div-student, .div-facilitator{
+    border-radius: 7px;
+    border: 1px solid #e5e7eb;
+}
+img{
+    height:300px;
+}
+p{
+    color: #4b5563;
+}
+.content{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #1f2937;
+}
+a:hover{
+    color: #1f2937;
+}
+
+@media only screen and (max-width:450px){
+    .content{
+        margin-top: 5px;
+    }
+    img{
+        height: 200px;
+    }
+    .div-student, .div-facilitator{
+        border-radius: 0px;
+    }
+}

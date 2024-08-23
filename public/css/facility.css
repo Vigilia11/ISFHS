@@ -1,0 +1,119 @@
+.facility-info{
+    line-height: 1.3;
+    color: #374151;
+}
+
+#facilitator_picture{
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+}
+
+.btn-add{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #4d7c0f;
+}
+
+.btn-add:hover, .btn-delete:hover{
+    background-color: black;
+}
+
+.btn-delete{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #b91c1c;
+}
+
+.checked{
+    color: orange;
+}
+
+.left{
+    width: 15%;
+}
+.middle{
+    width: 60%;
+}
+.right{
+    width: 25%;
+}
+.bar-container{
+    background-color:#e5e7eb;
+    width: 100%;
+    height: 10px;
+}
+.bar-5, .bar-4, .bar-3, .bar-2, .bar-1{
+    background-color: #0ea5e9;
+}
+
+.cancel{
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+}
+.cancel:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    color: black;
+}
+.submit{
+    background-color: white;
+    border: 1px solid #1d4ed8;
+    color: #1d4ed8;
+}
+.submit:hover{
+    background-color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+    color: white;
+}
+
+.modal-rate-trigger{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1f2937;
+}
+.comment-box{
+    border-bottom: 1px solid #6b7280;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    height: 40px;
+    max-height: 100px;
+    width: 100%;
+    border:1px solid #9ca3af;
+    border-radius: 20px;
+    outline: none;
+    
+}
+
+.btn-comment-submit{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #6b7280;
+}
+.btn-comment-submit:hover{
+    color: black;
+}
+
+#preview img { 
+    height: 170px; 
+    width: 155px;
+}
+
+.picture-delete-icon{
+    color: #f43f5e;
+}
+.picture-delete-icon:hover{
+    color: #be123c;
+}
+
+#repliesContainer{
+    max-height:350px; 
+    overflow-y:scroll
+}

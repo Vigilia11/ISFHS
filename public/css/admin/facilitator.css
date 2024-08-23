@@ -1,0 +1,63 @@
+.col-right{
+    /* background-image: linear-gradient(to right, red , yellow);; */
+    padding-left: 50px;
+}
+
+.btn-box{
+    background-color: white;
+    border: 1px solid #d1d5db   ;
+    color: #6b7280;
+}
+.btn-decline:hover{
+    border: 1px solid #9ca3af;
+    /* color: #ef4444; */
+    color: #374151;
+
+}
+.btn-block:hover{
+    border: 1px solid #9ca3af;
+    color: #374151;
+}
+.btn-approve:hover{
+    border: 1px solid #9ca3af;
+    /* color: #3b82f6; */
+    color: #374151;
+}
+
+.fullname{
+    font-size: 23px;
+    line-height: 0.8;
+    letter-spacing: 3px;
+}
+.email{
+    font-size: 15px;
+    color: #4b5563;
+}
+.personal-info{
+    color: #374151;
+    font-size: small;
+    line-height: 2;
+}
+
+.img-id{
+    height: 350px;
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.account-status-message{
+    color: #4b5563;
+    display: none;
+}
+
+.action-button{
+    display: flex;
+}
+.action-button button{
+    width: 100px;
+}

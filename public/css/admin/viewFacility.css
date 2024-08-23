@@ -1,0 +1,52 @@
+.facility-picture{
+    height: 400px;
+}
+.checked{
+    color: orange;
+}
+
+.facilitator-picture{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+
+.action-button{
+    display: flex;
+}
+.action-button button{
+    width: 100px;
+}
+.btn-box{
+    background-color: white;
+    border: 1px solid #d1d5db   ;
+    color: #6b7280;
+}
+.btn-decline:hover{
+    border: 1px solid #9ca3af;
+    /* color: #ef4444; */
+    color: #374151;
+
+}
+.btn-block:hover{
+    border: 1px solid #9ca3af;
+    color: #374151;
+}
+.btn-approve:hover{
+    border: 1px solid #9ca3af;
+    /* color: #3b82f6; */
+    color: #374151;
+}
+.facility-info{
+    color: #4b5563;
+}
+
+.img-facility-pictures{
+    height: 80px;
+}
+.img-permit{
+    height: 380px;
+}
+.facility-status{
+    color: #4b5563;
+}

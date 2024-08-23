@@ -1,0 +1,44 @@
+.label-account-status, .account-status{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.div-account-status{
+    line-height: 18px;
+}
+.profile-picture{
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50%);
+}
+
+label.name, label.email{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+label.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+label.email{
+    font-size: 15px;
+}
+
+.front-id, .back-id{
+    height: 120px;
+}
+.div-front-id, .div-back-id{
+    height: 300px;
+}
+span.error{
+    color: #f43f5e;
+}
+
+@media only screen and (max-width: 450px){
+    label.name, label.email{
+        font-size: medium;
+        text-transform: none;
+        letter-spacing: normal;
+    }
+}

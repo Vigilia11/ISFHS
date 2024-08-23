@@ -1,0 +1,44 @@
+.btn-register{
+    text-decoration:none; 
+    border:1px solid #6b7280; 
+    color:black;
+    font-weight: bold;
+    
+}
+.btn-register:hover{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}
+
+.btn-login{
+    border: none;
+    background-color: #3b82f6;
+}
+.btn-login:hover{
+    background-color: #1d4ed8;
+}
+.system-info{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    margin-top: 50px;
+}
+.login-container{
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+}
+@media only screen and (max-width:450px){
+    .content{
+        margin-top: 10px;
+    }
+    .login-container{
+        border: none;
+        border-radius: 0px;
+    }
+    .system-info{
+        display: none;
+    }
+}

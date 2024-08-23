@@ -1,0 +1,34 @@
+.facility-col{
+    background-size: cover; 
+    background-position: center; 
+    /* background-blend-mode: darken; */
+    height:220px;
+}
+.checked{
+    color: #fbbf24;
+}
+.star i{
+    font-size: 8px;
+}
+.facility-info{
+    background-color: rgba(0, 0, 0, 0.8); 
+    line-height: 17px;
+    color: #f3f4f6;
+}
+.link-details{
+    text-decoration: none;
+    color: #3b82f6;
+}
+.link-details:hover{
+    text-decoration: underline;
+}
+
+img.facility{
+    height: 120px;
+}
+div.facility-content{
+    line-height: 17px;
+}
+.fa-star{
+    font-size: 11px;
+}

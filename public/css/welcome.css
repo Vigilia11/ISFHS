@@ -1,0 +1,113 @@
+/* .btn-register{
+    text-decoration:none; 
+    border:1px solid #6b7280; 
+    color:black;
+    font-weight: bold;
+    
+}
+.btn-register:hover{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}
+
+.btn-login{
+    border: none;
+    background-color: #3b82f6;
+}
+.btn-login:hover{
+    background-color: #1d4ed8;
+}
+.system-info{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    margin-top: 50px;
+}
+.login-container{
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width:450px){
+    .content{
+        margin-top: 10px;
+    }
+    .login-container{
+        border: none;
+        border-radius: 0px;
+    }
+    .system-info{
+        display: none;
+    }
+} */
+.ball{
+    width: 350px;
+    height: 350px;
+    bottom: -50px;
+    right: -50px;
+    clip-path: circle(50%);
+    background-image: linear-gradient(to top left, #fda4af, #fde68a);
+}
+
+.col-right, .col-left{
+    height: 430px;
+}
+.col-left h1{
+    font-family: arial;
+}
+.top-rated-card{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left:60px;
+    z-index: 2;
+    border: 1px solid #e5e7eb;
+}
+.checked{
+    color: orange;
+}
+.card-top-right{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 140px;
+    height: 80px;
+    border-radius: 3px;
+}
+.top-rated-card h3{
+    font-weight: bolder;
+    font-family: Arial Black;
+    color: white;
+}
+.top-rated-card h4{
+    font-weight: bolder;
+    font-family: Arial Black;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-top:-10px; 
+    letter-spacing:5px
+
+}
+.card-bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    height: 160px;
+    border: 1px solid #e5e7eb;
+    z-index: 3;
+}
+.card-left-center{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 150px;
+    z-index: 3;
+    height: 80px;
+    border: 1px solid #e5e7eb;
+    border-radius: 3px;
+}

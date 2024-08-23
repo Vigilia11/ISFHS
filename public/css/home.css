@@ -1,0 +1,13 @@
+.img-facility{
+    height: 280px;
+}
+
+.checked{
+    color: orange;
+}
+
+@media screen and (max-width: 900px) {
+    .img-facility{
+        height: 300px;
+    }
+}
